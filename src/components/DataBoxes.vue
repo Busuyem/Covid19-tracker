@@ -1,6 +1,6 @@
 <template>
     <div class="grid md:grid-col-2 gap-4">
-        <div class="shadow-md bg-blue-200 p-10 text-center rounded">
+        <div class="shadow-md bg-blue-400 p-10 text-center rounded">
             <h3 class="text-3xl font-bold mb-4 text-ble-900">
                 <div class="text-2xl mb-4">
                     <span class="font-bold">New: {{ numberWithComas(stats.NewConfirmed) }}</span>
@@ -15,7 +15,7 @@
             </h3>
         </div>
 
-         <div class="shadow-md bg-blue-200 p-10 text-center rounded">
+         <div class="shadow-md bg-red-700 p-10 text-center text-white rounded">
             <h3 class="text-3xl font-bold mb-4 text-ble-900">
                 <div class="text-2xl mb-4">
                     <span class="font-bold">New Deaths: {{ numberWithComas(stats.NewDeaths) }}</span>
